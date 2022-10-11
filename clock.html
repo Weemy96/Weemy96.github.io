@@ -13,7 +13,7 @@ function getTimezone(){
     console.log(tz);
     var show_PlusMinus = "";
     show_PlusMinus = tz > 0 ? "+":"-";
-    document.getElementById('tz').innerHTML = "(GTM " + show_PlusMinus + tz/60 + ")";
+    document.getElementById('tz').innerHTML = "(GMT " + show_PlusMinus + tz/60 + ")";
     
 }
 function startTime() {
